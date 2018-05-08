@@ -12,6 +12,8 @@
 		FDCA5DC020A1BB2F00696B22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCA5DBE20A1BB2F00696B22 /* Main.storyboard */; };
 		FDCA5DC220A1BB3000696B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCA5DC120A1BB3000696B22 /* Assets.xcassets */; };
 		FDCA5DC520A1BB3000696B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCA5DC320A1BB3000696B22 /* LaunchScreen.storyboard */; };
+		FDCA5DCD20A1BC2B00696B22 /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCA5DCC20A1BC2B00696B22 /* ZipCodeDelegate.swift */; };
+		FDCA5DCF20A1BC3700696B22 /* DollarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCA5DCE20A1BC3700696B22 /* DollarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FDCA5DC120A1BB3000696B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDCA5DC420A1BB3000696B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDCA5DC620A1BB3000696B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCA5DCC20A1BC2B00696B22 /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
+		FDCA5DCE20A1BC3700696B22 /* DollarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				FDCA5DBA20A1BB2F00696B22 /* AppDelegate.swift */,
 				FDCA5DBC20A1BB2F00696B22 /* ViewController.swift */,
+				FDCA5DCC20A1BC2B00696B22 /* ZipCodeDelegate.swift */,
+				FDCA5DCE20A1BC3700696B22 /* DollarDelegate.swift */,
 				FDCA5DBE20A1BB2F00696B22 /* Main.storyboard */,
 				FDCA5DC120A1BB3000696B22 /* Assets.xcassets */,
 				FDCA5DC320A1BB3000696B22 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCA5DCF20A1BC3700696B22 /* DollarDelegate.swift in Sources */,
 				FDCA5DBD20A1BB2F00696B22 /* ViewController.swift in Sources */,
+				FDCA5DCD20A1BC2B00696B22 /* ZipCodeDelegate.swift in Sources */,
 				FDCA5DBB20A1BB2F00696B22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

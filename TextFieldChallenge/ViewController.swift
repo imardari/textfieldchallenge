@@ -8,18 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet weak var zipTextField: UITextField!
+    @IBOutlet weak var dollarTextField: UITextField!
+    @IBOutlet weak var enableDisableTextField: UITextField!
+    @IBOutlet weak var switchState: UISwitch!
+    
+    let zipDelegate = ZipCodeDelegate()
+    let dollarDelegate = DollarDelegate()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        zipTextField.delegate = zipDelegate
+        dollarTextField.delegate = dollarDelegate
+        //enableDisableTextField.delegate = self
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func toggleTextField(_ sender: AnyObject) {
+        
+        if switchState.isOn {
+            enableDisableTextField.isEnabled = true
+        } else {
+            enableDisableTextField.isEnabled = false
+        }
     }
-
-
 }
 
