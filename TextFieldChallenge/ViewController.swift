@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController: UIViewController {
     
     @IBOutlet weak var zipTextField: UITextField!
     @IBOutlet weak var dollarTextField: UITextField!
@@ -23,7 +23,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         zipTextField.delegate = zipDelegate
         dollarTextField.delegate = dollarDelegate
-        //enableDisableTextField.delegate = self
         
     }
     
